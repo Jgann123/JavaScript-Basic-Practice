@@ -152,13 +152,15 @@ var age = prompt('what is your age?');
 if( (age >= 18) && (age <= 35) ) {
 
     status = 'target demo'
-
+//meaning 18-35 is the target demdographic. 
 }
 else{
     status = "not my audience!"
 }
 
 console.log(status);
+
+
 
 
 
