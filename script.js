@@ -113,6 +113,57 @@
      console.log(fruits, fruits.pop(), fruits);
 
 
+   let emptyArray = new Array()
+   for(let num = 0; num < 10; num++) {
+       emptyArray.push(num);
+   }
+
+   console.log(emptyArray);
+
+
+   //Objects in Javascript. 
+
+   let student = {
+   first: "Jeremy", 
+   last: "Gann", 
+   age: "31"
+    // studentInfo: function() {
+    //     return this.first + \n
+    // }
+};
+
+   console.log(student.studentinfo());
+
+   console.log(student.first);
+   student.first = "Jeremiah";
+   console.log(student.last);
+
+   student.age++; //this would be 32
+
+
+
+//conditionals, control flows, and if else. 
+
+//target demographic... 
+
+// calling all men! 
+var age = prompt('what is your age?');
+
+if( (age >= 18) && (age <= 35) ) {
+
+    status = 'target demo'
+
+}
+else{
+    status = "not my audience!"
+}
+
+console.log(status);
+
+
+
+
+
 
 
 
