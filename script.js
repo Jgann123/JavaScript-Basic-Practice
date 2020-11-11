@@ -10,6 +10,7 @@
 
 
 
+
     //JavaScript == GUUI development so fast. 
 
     var age = prompt('What is your age?');
@@ -159,6 +160,31 @@ else{
 }
 
 console.log(status);
+
+
+//switch statement
+//differentiate weekend from weekday. 
+//0 Sunday
+//6 saturday
+//5 Friday meaning these three cases are going to return weekend otherwise(default) it will return a weekday. 
+
+
+switch(6) {
+    case 0:
+        text = 'weekend';
+        break;
+    case 5:
+        text = 'weekend';
+        break;
+    case 6:
+        text = 'weekend';
+        break;
+    default:
+        text = 'weekday';
+}
+
+console.log(text);
+
 
 
 

@@ -12,12 +12,25 @@
     
 <h1 id ="someText"></h1>
 
-
-
-
-
-
-
+    <script>
+        let students =[
+        
+        {
+            "name": "Jeremy",
+            "age": 31,
+            "wife": "April"
+          },
+        
+          {
+            "name": "April",
+            "age": 31,
+            "husband": "Jeremy"
+        
+          }
+        ]
+   //parsing only the first students name.
+        console.log(JSON.parse(students)[0].name);
+    </script>
     <script src="script.js"> </script>
 </body>
 </html>
